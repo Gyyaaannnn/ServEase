@@ -53,13 +53,13 @@
                               <tbody>
                               {% for i in order %}
                                 <tr>
-                                  <td>{{forloop.counter}}</td>
-                                  <td>{{i.customer.user.first_name}} {{i.customer.user.last_name}}</td>
-                                  <td>{{i.customer.contact}}</td>
-                                  <td>{{i.customer.address}}</td>
-                                  <td>{{i.book_date}}</td>
-                                  <td>{{i.book_days}}</td>
-                                  <td>{{i.book_hours}}</td>
+                                  <td style="color:black">{{forloop.counter}}</td>
+                                  <td style="color:black">{{i.customer.user.first_name}} {{i.customer.user.last_name}}</td>
+                                  <td style="color:black">{{i.customer.contact}}</td>
+                                  <td style="color:black">{{i.customer.address}}</td>
+                                  <td style="color:black">{{i.book_date}}</td>
+                                  <td style="color:black">{{i.book_days}}</td>
+                                  <td style="color:black">{{i.book_hours}}</td>
                                   
                                   {% if i.status.status == 'Accept' %}
                                   <td><span style="color:white;background:green;padding:0.2em 0.8em 0.2em 0.8em;border-radius:8%">{{i.status.status}}</span></td>
