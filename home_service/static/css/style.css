@@ -618,7 +618,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     background: #ffffff;
     max-width: 400px;
     width: 100%;
-    border-top: 5px solid #026fbf;
+    border-top: 5px solid green;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
     margin: 1em auto;
 }
@@ -628,7 +628,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     position: absolute;
     top: -0;
     right: -0;
-    background: #026fbf;
+    background: green;
     width: 30px;
     height: 30px;
     margin: -5px 0 0;
@@ -643,7 +643,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     top: 5px;
     right: -77px;
     display: block;
-    border: 1px solid #026fbf;
+    border: 1px solid green;
     width: auto;
     border-radius: 5px;
     padding: 5px;
@@ -707,7 +707,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 
 .form-module input[type="submit"] {
-    background: #026fbf;
+    background: green;
     width: 100%;
     border: 0;
     padding: 10px 15px;
@@ -721,7 +721,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 
 .form-module input[type="submit"]:hover {
-    background: #168eea;
+    background: green;
 }
 
 .form-module .cta {
@@ -785,6 +785,7 @@ li.w3 {
 }
 a.btn.btn-primary {
     margin-top: 30px;
+    
 }
 /** /Banner bottom **/
 
@@ -1022,7 +1023,7 @@ ul.top-links li a i.fa {
 
 
 /* Add a blue color to the author */
-.author {color: cornflowerblue;}
+.author {color: green;}
 /*-- stats --*/
 
 .stats_left p {
@@ -1250,9 +1251,9 @@ i.fa.fa-cog {
     margin: 50px 0px 0px;
 }
 .btn-primary:hover {
-    color: #fff;
-    background-color:none;
-    border-color: transparent;
+    color: black;
+    background-color:green;
+    border-color: transparent;  
 }
 .w3l_abtdwn p {
     color: #000;
@@ -1445,7 +1446,7 @@ p.bottom {
 }
 .w3_ms {
     padding: 2em;
-    background-color: #003366;
+    background-color: green;
 }
 .w3_ms4 {
     padding: 2em;
@@ -1471,7 +1472,7 @@ p.bottom {
 	color:#fff;
 }
 .w3_ms4 {
-   background-color:#2754ba;
+   background-color:green;
 }
 .w3_ms3 h4 {
     font-size: 20px;
@@ -1495,7 +1496,7 @@ p.bottom {
     background-size: cover;
 }
 .w3_ms7 {
-    background-color: #2529d8;
+    background-color: green;
 	padding: 2em;
 }
 /** /mission **/
@@ -1712,9 +1713,9 @@ section.skills.py-lg-5.py-md-4.py-md-3.py-2 {
 	line-height:1.8em;
 }
 .btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: black;
+    background-color: #6F7863;
+    border-color: #6F7863;
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -1973,7 +1974,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 
 .map iframe {
     width: 100%;
-    border: 1px solid #17a2b8;
+    border: 1px solid green;
 }
 
 .address h5 {
@@ -1995,6 +1996,7 @@ p.c-txt {
 
 .contact-top1 .form-group label,
 form.f-color .form-control {
+    
     color: #000;
     font-weight: 600;
     letter-spacing: 1px;

@@ -765,3 +765,4 @@ def search_service_provider(request):
 def view_history(request):
     
     return render(request, 'view_history.html',)
+

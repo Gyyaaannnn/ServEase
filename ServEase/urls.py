@@ -57,5 +57,6 @@ urlpatterns = [
     path('service_provider_detail(<int:pid>)',Service_provider_detail,name="service_provider_detail"),
     path('delete_city(<int:pid>)',delete_city,name="delete_city"),
     path('search_service_provider/',search_service_provider, name='search_service_provider'),
-    path('view_history.html', view_history, name='view_history'),
+    path('view_history.html',view_history, name='view_history'),
+    
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

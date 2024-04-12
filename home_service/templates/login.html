@@ -7,6 +7,11 @@
   padding:20px;
   border-radius:8px;
 }
+btn-info {
+	background-color:green;
+	border:green;
+
+}
 </style>
 
 {% if error == "pat1" %}
@@ -75,10 +80,10 @@
 								<label for="contactemail">Password</label>
 								<input type="password" placeholder="Enter Your Password" class="form-control" id="contactemail" name="pwd" required>
 							</div>
-							<button type="submit" class="btn btn-info btn-block">Submit</button>
+							<button type="submit" class="btn btn-info btn-block" style="background-color:green; border:none">Submit</button>
 						</form>
 						<center style="margin-top:6%">
- <a href="{% url 'signup' %}" style="margin-top:200px;font-weight:bold;color:blue">
+ <a href="{% url 'signup' %}" style="margin-top:200px;font-weight:bold;color:green;">
 	 <i class="fa fa-hand-pointer-o" aria-hidden="true"></i> for new user create your Account</a>
 				</center>	</div>
 					<!--  //contact form grid ends here -->

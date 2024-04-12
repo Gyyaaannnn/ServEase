@@ -12,4 +12,5 @@ admin.site.register(Service)
 admin.site.register(Customer)
 admin.site.register(Service_provider)
 admin.site.register(Total_Service_Provider)
+    
 

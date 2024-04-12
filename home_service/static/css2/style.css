@@ -793,7 +793,7 @@ ul.dropdown-menu.drp-mnu li {
 }
 .user-name p{
 	font-size:1em;
-	color:#FC8213;
+	color: green;
 	line-height:1em;
 	font-weight:700;
 }
@@ -1966,7 +1966,7 @@ p.grid1 {
     outline: none;
     cursor: pointer;
     color: #fff;
-    background: #337AB7;
+    background: green;
     width: 100%;
     margin: 0 auto;
     border-radius: 3px;

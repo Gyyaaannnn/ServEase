@@ -37,7 +37,7 @@
     <ul class="navbar-nav ml-auto">
       {% if request.user.is_staff %}
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" style="background-color:red" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" style="background-color:green" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-user"></i> Hello, {{request.user.username}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -69,7 +69,7 @@
       </li>
 
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" style="background-color:red" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" style="background-color:green" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-user"></i> Welcome, {{request.user.username}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -89,7 +89,7 @@
             <i class="fa fa-first-order"></i> My Order </a>
       </li>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" style="background-color:red" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" style="background-color:green" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-user"></i> Hello,{{request.user.username}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -127,7 +127,7 @@
 
 
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="background-color:red" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="background-color:green" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-sign-in"></i> Login
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -177,7 +177,7 @@
                     </button>
                 </div>
                 <section>
-                    <div class="modal-body">
+                    <div class="modal-body"> 
                         <div class="loginf_module">
                             <div class="module form-module">
                                 <div class="toggle">
@@ -209,7 +209,7 @@
                                         <input type="email" name="email" placeholder="Email address" required="">
                                         <input type="text" name="contact" placeholder="Phone Number" required="">
                                         <input type="text" name="address" placeholder="Address" required="">
-                                        <p style="margin-bottom:4%;padding:9px;border:1px solid lightgrey;border-radius:2px">Service Man <input type="radio" name="type" value="service_provider">  <span style="margin-left:2%">Customer</span> <input type="radio" name="type" value="customer"></p>
+                                        <p style="margin-bottom:4%;padding:9px;border:1px solid lightgrey;border-radius:2px">Service Provider <input type="radio" name="type" value="service_provider">  <span style="margin-left:2%">Customer</span> <input type="radio" name="type" value="customer"></p>
                                         <input type="submit" value="Register">
                                     </form>
                                 </div>
