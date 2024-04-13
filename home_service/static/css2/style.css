@@ -3081,7 +3081,8 @@ p.bottom {
 }
 /*--prices end here--*/
 /*--meadia quiries start here--*/
-@media (max-width:1440px;max-height:100%){
+@media (max-width:1440px) and
+        (max-height:100%){  
 .page-container.sidebar-collapsed-back .sidebar-menu {
     width: 190px;
 }
