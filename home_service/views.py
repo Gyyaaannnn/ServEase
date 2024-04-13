@@ -207,7 +207,8 @@ def Customer_Order(request):
     except:
         sign = Service_provider.objects.get(user=user)
         pass
-    order = Order.objects.filter(customer=sign)
+    _status = Status.objects.get(status="done")
+    order = Order.objects.filter(customer=sign).exclude(status_id=_status.id)
     d = {'error':error,'order':order}
     return render(request,'customer_order.html',d)
 
@@ -591,7 +592,9 @@ def delete_admin_order(request,pid):
 
 def delete_Booking(request,pid):
     ser = Order.objects.get(id=pid)
-    ser.delete()
+    _status = Status.objects.filter(status="done").first()
+    ser.status = _status
+    ser.save()
     return redirect('customer_order')
 
 def delete_Service_provider(request,pid):
@@ -763,6 +766,17 @@ def search_service_provider(request):
     return render(request, 'all_service_provider.html', context)
     
 def view_history(request):
+    user = request.user;
+    user_costomer = Customer.objects.filter(user_id=user.id).first()
+    status = Status.objects.get(status="done")
     
-    return render(request, 'view_history.html',)
+  
+    customer_order = Order.objects.filter(customer_id=user_costomer.id).filter(status_id=status.id)
+    print(customer_order)
+    
+    orders_context = {
+        "orders" : customer_order
+    }
+   
+    return render(request, 'view_history.html', orders_context)
 
