@@ -1253,7 +1253,7 @@ i.fa.fa-cog {
     margin: 50px 0px 0px;
 }
 .btn-primary:hover {
-    color: #fff;
+    background-color: #fff;
     border-color: transparent;  
 }
 .w3l_abtdwn p {
