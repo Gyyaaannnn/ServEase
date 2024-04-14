@@ -565,7 +565,7 @@ i.fa.fa-tasks{
     left: 54%;
 }
 .header-right span.blue{
-	background-color:#337AB7;
+	background-color:darkgreen;
 }
 .header-right span.red{
 	background-color:#ef553a;
@@ -793,14 +793,14 @@ ul.dropdown-menu.drp-mnu li {
 }
 .user-name p{
 	font-size:1em;
-	color: green;
+	color: darkgreen;
 	line-height:1em;
 	font-weight:700;
 }
 .user-name span {
     font-size: .75em;
-    font-style: italic;
-    color: #424f63;
+    
+    color: green;
     font-weight: normal;
     margin-top: .3em;
 }
