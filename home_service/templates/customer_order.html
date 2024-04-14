@@ -58,7 +58,7 @@
                                       <th style="color:black">Status</th>
                                       <th style="color:black">View detail</th>
                                       <th style="color:black">Action</th>
-                                      <th style="color:black">Ratings</th>
+                                      
 
                                   </tr>
                               </thead>
@@ -76,8 +76,8 @@
                                   <td style="color:black">{{i.book_hours}}</td>
                                   <td style="color:black">{{i.status.status}}</td>
                                   <td style="color:black"><a href="{% url 'Booking_detail' i.id %}" ><i style="font-size:30px;color:green" class="fa fa-eye"></i></a></td>
-                                  <td style="color:black"><a href="{% url 'delete_Booking' i.id %}" ><i onclick="return confirm('Are You Confirm?')"><button type="submit" style="font-size:15px;  background:green; color:white;" id="doneBtn">Done</button></i></a></td>
-                                  <td style="color:black"><a href="view_history.html" ><button style="font-size:15px;  background:blue; color:white;">Ratings</button></a></td>
+                                  <td style="color:black"><a href="{% url 'delete_Booking' i.id %}" ><i onclick="return confirm('Confirm?')"><button type="submit" style="font-size:15px;  background:green; color:white;" id="doneBtn; cursor:pointer">Done</button></i></a></td>
+                                  
                               </tr>
                               
                               {% endfor %}

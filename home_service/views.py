@@ -599,6 +599,7 @@ def delete_Booking(request,pid):
     ser.save()
     return redirect('customer_order')
 
+
 def delete_Service_provider(request,pid):
     ser = Service_provider.objects.get(id=pid)
     ser.delete()
@@ -782,3 +783,12 @@ def view_history(request):
    
     return render(request, 'view_history.html', orders_context)
 
+def delete_History(request,pid):
+    ser = Order.objects.get(id=pid)
+    ser.delete()
+    return redirect('customer_order')
+
+def rating_page(request):
+     user = request.user;
+     user_costomer = Customer.objects.filter(user_id=user.id).first()
+     return render(request, 'rating_page.html')
