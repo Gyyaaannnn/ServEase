@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body {
 	padding: 0;
 	margin: 0;
-	background-color:#739072;
+	background-color:#ffffff;
 }
 body a {
 	transition: 0.5s all;
@@ -1691,9 +1691,9 @@ section.skills.py-lg-5.py-md-4.py-md-3.py-2 {
     padding: 0.7em 5em;
     font-size: 14px;
     margin: 1em 0 0 0;
-    border: 1px solid #186a9a;
+    border: 1px solid green;
     -webkit-appearance: none;
-    background: #186a9a;
+    background: green;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
@@ -1714,8 +1714,8 @@ section.skills.py-lg-5.py-md-4.py-md-3.py-2 {
 }
 .btn-primary {
     color: black;
-    background-color: #6F7863;
-    border-color: #6F7863;
+    background-color: green;
+    border-color: green;
     font-size: 20px;
     letter-spacing: 1px;
 }
