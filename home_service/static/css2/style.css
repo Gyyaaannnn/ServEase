@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
@@ -1765,7 +1760,7 @@ p.grid1 {
     outline: none;
     cursor: pointer;
     color: #fff;
-    background: #337AB7;
+    background: green;
     width: 100%;
     margin: 0 auto;
     border-radius: 3px;
@@ -1900,10 +1895,10 @@ p.grid1 {
     font-family: 'Carrois Gothic', sans-serif;
 }
 .login-block h3 a{
-	color:#337AB7;
+	color:green;
 }
 .login-block h3 a:hover{
-	color:#FC8213;
+	color:darkgreen;
 }
 .login-block h5 {
     font-size: 1em;
@@ -2028,7 +2023,7 @@ p.grid1 {
 #map1a,
 #panorama {
   height:300px;
-  background:#6699cc;
+  background:green;
 }
 .map-system {
     margin-bottom: 2em;
@@ -2319,13 +2314,14 @@ ul.nav.tabs li a span {
     padding: 10px 20px;
     font-size: 0.9em;
     color: #fff;
-	background-color:#337AB7;
-    border-color:rgba(51, 122, 183, 0.82);
+	background-color:green;
+    border-color:darkgreen;
 	border-radius: inherit;
 }
 .compose-right .form-group {
     margin: .5em 0;
 }
+
 .compose-right .btn.btn-file {
     position: relative;
     overflow: hidden;
@@ -2398,7 +2394,7 @@ ul.nav.tabs li a span {
         outline: none;
 }
 .compose-right input[type="submit"]:hover {
-	background-color: #FC8213;
+	background-color: green;
 	transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -2422,7 +2418,7 @@ ul.nav.tabs li a span {
 }
 .produ-cost {
     padding: 0.8em 1.5em;
-    background: #337AB7;
+    background: green;
 }
 .produ-cost h4 {
     font-size: 1.2em;
@@ -2533,11 +2529,11 @@ span.per-month {
     margin-bottom: 3em;
 }
 .pric-clr1 h4 {
-    background:#09375F;
+    background:green;
 }
 
 .pric-clr1 {
-    background:#1A63A0;
+    background:green;
 }
 .pric-clr3 h4 {
     background: #CC660E;

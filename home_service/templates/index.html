@@ -18,17 +18,24 @@
     <link rel="icon" type="image/x-icon" href="{% static 'images2/logo.png' %}">
 <style>
     .nav-link:hover {
-  background-color: #6F7863;
+  background-color: green;
   padding:10px;
   border-radius:8px;
-}</style>
+}
+
+.nav-item .nav-link  {
+  text-shadow: 0 0 3px black, 0 0 3px black;
+  font-weight:100;
+}
+</style>
 </head>
 
 <body>
 <header>
 	<!-- header -->
 	<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="{% url 'home' %}" style="font-size:30px">ServEase</a>
+  <a class="navbar-brand" href="{% url 'home' %}" style="font-size:30px; color:white; -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black">ServEase</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

@@ -1,10 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/*-- Reset-Code --*/
+
 
 body {
 	padding: 0;
@@ -191,7 +185,7 @@ a:focus, a:hover {
 /*--banner-slider--*/
 
 .slider-img {
-    background: url(../images/2.jpg) no-repeat 0px 0px;
+    background: url(../images/bgc.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,7 +195,7 @@ a:focus, a:hover {
 }
 
 .slider-img-2 {
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/bgc2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -511,7 +505,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 
 .callbacks_here a:after {
-    background: #535945;
+    background: green;
 }
 
 /** Effects **/
@@ -1253,7 +1247,7 @@ i.fa.fa-cog {
     margin: 50px 0px 0px;
 }
 .btn-primary:hover {
-    background-color: #fff;
+    background-color:green;
     border-color: transparent;  
 }
 .w3l_abtdwn p {
