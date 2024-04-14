@@ -784,6 +784,8 @@ li.w3 {
     text-align: center;
 }
 a.btn.btn-primary {
+    color: #fff;
+    background-color: #28a745;
     margin-top: 30px;
     
 }
@@ -1251,8 +1253,7 @@ i.fa.fa-cog {
     margin: 50px 0px 0px;
 }
 .btn-primary:hover {
-    color: black;
-    background-color:green;
+    color: #fff;
     border-color: transparent;  
 }
 .w3l_abtdwn p {
@@ -1713,7 +1714,7 @@ section.skills.py-lg-5.py-md-4.py-md-3.py-2 {
 	line-height:1.8em;
 }
 .btn-primary {
-    color: black;
+    color: #fff;
     background-color: green;
     border-color: green;
     font-size: 20px;
