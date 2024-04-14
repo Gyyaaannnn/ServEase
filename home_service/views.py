@@ -188,7 +188,9 @@ def Service_Order(request):
     else:
         if sign.status.status == "pending":
             terro="message1"
-    order = Order.objects.filter(service=sign)
+    _status = Status.objects.get(status="done")
+    order = Order.objects.filter(service=sign).exclude(status_id=_status.id)
+    print(order)
     d = {'error':error,'terro':terro,'order':order}
     return render(request,'service_order.html',d)
 
